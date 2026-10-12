@@ -6,4 +6,6 @@ class Calculator:
         self._current_val = x + y
     def subtract(self, x, y):
         self._current_val = x - y
+    def multiply(self, x, y):
+        self._current_val = x * y
         return self._current_val
